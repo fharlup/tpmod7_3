@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Text.Json;
-
+/*
 public class DataMahasiswa1302223019
 {
     public class NamaMahasiswa
@@ -30,17 +30,9 @@ public class DataMahasiswa1302223019
             Console.WriteLine("Nama mahasiswa tidak tersedia.");
         }
     }
-    static void Main(string[] args)
-    {
-        DataMahasiswa1302223019 dataMahasiswa = new DataMahasiswa1302223019();
-
-        // Read and display the JSON data
-        dataMahasiswa.ReadJSON();
-
-        Console.WriteLine();
-    }
 
 }
+*/
 
 
     
