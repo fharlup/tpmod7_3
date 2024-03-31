@@ -22,7 +22,8 @@ public class DataMahasiswa1302223019
 
         if (dataMahasiswa.nama != null)
         {
-            Console.WriteLine($"Nama {dataMahasiswa.nama.depan} {dataMahasiswa.nama.belakang} dengan nim {dataMahasiswa.nim} dari fakultas {dataMahasiswa.fakultas}");
+            Console.WriteLine($"Nama {dataMahasiswa.nama.depan} {dataMahasiswa.nama.belakang} dengan nim {dataMahasiswa.nim} dari fakultas " +
+                $"{dataMahasiswa.fakultas}");
         }
         else
         {
@@ -35,6 +36,8 @@ public class DataMahasiswa1302223019
 
         // Read and display the JSON data
         dataMahasiswa.ReadJSON();
+
+        Console.WriteLine();
     }
 
 }
