@@ -18,5 +18,8 @@ var datakelas1302223083=new KuliahMahasiswa1302223083();
 datakelas1302223083.ReadJSON();
 dataMahasiswa1302223083.ReadJSON();
 
-Console.ReadLine();
+var dataMahasiswa1302223074 = new DataMahasiswa1302223074();
 
+dataMahasiswa1302223074.ReadJSON();
+
+Console.ReadLine();
