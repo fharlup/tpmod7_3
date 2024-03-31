@@ -1,0 +1,17 @@
+{
+    "profiles": {
+        "tpmod6": {
+            "commandName": "Project"
+        },
+        "WSL": {
+            "commandName": "WSL2",
+            "distributionName": ""
+
+        },
+        "WSL2": {
+            "commandName": "Executable",
+            "executablePath": "wsl",
+            "commandLineArgs": "dotnet tpmod7.dll [commandLineArgs]"
+        }
+    }
+}
