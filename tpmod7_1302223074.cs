@@ -31,4 +31,24 @@ public class DataMahasiswa1302223074
     }
 }
 
+public class KuliahMahasiswa1302223074
+{
+    public class MataKuliah
+    {
+        public string kode_matkul { get; set; }
+        public string nama_matkul { get; set; }
+    }
 
+    public MataKuliah matkul { get; set; }
+
+    public void ReadJSON()
+    {
+        string json = File.ReadAllText("tp7_2_1302223074.json");
+        var datakelas = JsonSerializer.Deserialize<KuliahMahasiswa1302223032>(json);
+
+        foreach (var item in datakelas.courses)
+        {
+            Console.WriteLine($"Code: {item.code}, Name: {item.name}");
+        }
+    }
+}
